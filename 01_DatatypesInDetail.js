@@ -14,8 +14,13 @@
 // symbol
 
 
-let a = 10
+let a = 14
 let b = "Zohaib"
 console.log(typeof a," ", typeof b);
 console.log(typeof undefined, typeof null);
 
+console.log(...b, a)
+console.log(`
+Hello My name is: ${b}
+My Roll No is: ${a}
+  `)
