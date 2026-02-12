@@ -46,3 +46,13 @@ user.name = "Ahmed"; // ✅
 
 
 console.table([PORT, count, user]);
+const user = {
+  name: "Ali",
+  greet: function () {
+    console.log("Hello");
+  }
+};
+
+user.name      // data
+user.greet()
+console.log(typeof user)
